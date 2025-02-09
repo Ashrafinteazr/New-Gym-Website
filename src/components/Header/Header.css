@@ -1,0 +1,38 @@
+
+
+#navbarNav{
+    margin-right: 130px;
+    
+    width: 100%;
+}
+
+.nav-link{
+    /* font-size: 18px; */
+    font-weight: bold;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gs-btn{
+    background-color: red;
+    color: white;
+    width: 130px;
+    height: 45px;
+    box-sizing: border-box;
+    border-radius: 35px;
+
+}
+
+
+.gs-btn:hover{
+
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    cursor: pointer;
+
+}
+
+
+
+

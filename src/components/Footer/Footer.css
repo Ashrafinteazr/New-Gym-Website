@@ -1,0 +1,15 @@
+.col-md{
+    display: flex;
+}
+
+.col-md p a{
+    color: red;
+}
+.icons span{
+    margin: 0 5px;
+}
+
+.footer{
+    z-index: 100;
+}
+

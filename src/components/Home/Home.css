@@ -1,0 +1,76 @@
+.col-lg-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.col-lg-6 h1{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+}
+.col-lg-6 p{
+    font-size: 18px;
+    color: white;
+    margin-left: 50px;
+}
+
+.home-img{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin-top: 10vh;
+}
+
+.home-section{
+    position: absolute;
+    top: 30%;
+    left: 10px;
+}
+
+
+form{
+    width: 450px;
+    border-radius: .5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    margin-right: 10px;   
+}
+
+form h2{
+    animation: inimate 1s infinite;
+}
+
+form input,
+button{
+    padding: 10px 15px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: lightgray;
+
+
+}
+
+button{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+
+@keyframes inimate{
+    0%{
+      color: black;
+    }
+
+    100%{
+        color: lightgray;
+    }
+}
